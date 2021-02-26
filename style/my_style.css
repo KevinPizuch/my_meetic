@@ -1,0 +1,202 @@
+.image-back
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.profil-container
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.left-slide,.right-slide
+{
+	height: 35px;
+	margin-top: 25%;
+	border-radius: 10px;
+	border-style: none;
+	background:black;
+	color: white;
+}
+.left-slide
+{
+	margin-right: 15px;
+}
+.right-slide
+{
+	margin-left: 15px;
+}
+.card-c {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 70%;
+}
+
+.card {
+    padding: 2px 16px;
+}
+.man,.lady
+{
+	width: 50px;
+	height: 50px;
+}
+.body-logIn
+{
+	height: 1000px;
+}
+.body,.body-logIn
+{
+
+	background-image: url("../image/home.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.all-c
+{
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.all-log
+{
+	width: 30%;
+    background: #C0C1C1;
+    opacity: 0.8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.all
+{
+	width: 30%;
+    background: #C0C1C1;
+    opacity: 0.8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.city_content_input
+{
+	margin-bottom: 10px;
+}
+.all-city
+{
+	display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.p-city-container
+{
+	padding: 5px 10px 0px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #EBF1EE;
+}
+.delete-input-city
+{
+	margin-left: 5px;
+}
+.content
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.addAMember,.auth
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.addButMem
+{
+	background:#0076FE;
+	color: white;
+}
+.body-log
+{
+	background:#0076FE;
+	height: 800px;
+}
+input
+{
+	opacity: 0.95;
+}
+.legend
+{
+	text-decoration: underline;
+	text-align: center;
+}
+.header-conn
+{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-end;
+	background: #636e72;
+	padding: 15px 0px 15px 0px;
+	font-size: 20px;
+	color: white;
+}
+.link-log
+{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.link-log a
+{
+	color:white;
+}
+.err
+{
+	color:red;
+	margin: 5px 0px  15px 0px;
+}
+.askSign
+{
+	margin-top: 10px;
+}
+.nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: white;
+	height: 125px;
+	padding-top: 10px;
+}
+
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+#la{
+	visibility: hidden;
+}
+#loginForm{
+	visibility: hidden;
+}
+.hiddenForm{
+	height: 350px;
+}

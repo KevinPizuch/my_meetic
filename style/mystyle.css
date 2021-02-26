@@ -1,0 +1,300 @@
+.image-back
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.profil-container
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.left-slide,.right-slide
+{
+	height: 35px;
+	margin-top: 25%;
+	border-radius: 10px;
+	border-style: none;
+}
+.left-slide
+{
+	margin-right: 15px;
+}
+.right-slide
+{
+	margin-left: 15px;
+}
+.card-c {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 60%;
+    background:white;
+		border-radius: 5px;
+}
+
+.card-c:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card {
+    border-radius: 15px;
+    padding: 2px 16px;
+}
+.homme,.femme
+{
+	th: 80px;
+	height: 80px;
+	display: block;
+	margin: auto;
+}
+.body-logIn
+{
+	height: 540px;
+}
+.body-log
+{
+	background-image: url("../image/home.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.all-c
+{
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.all
+{
+	width: 30%;
+    background: #C0C1C1;
+   	padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.city_content_input
+{
+	margin-bottom: 10px;
+}
+.all-city
+{
+	display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.p-city-container
+{
+	padding: 5px 10px 0px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #EBF1EE;
+}
+.delete-input-city
+{
+	margin-left: 5px;
+}
+.content
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.addAMember,.auth
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.addButMem
+{
+	background:#0076FE;
+	color: white;
+	display: block;
+	margin: auto;
+}
+.body-log
+{
+	height: 1000px;
+}
+.link-log
+{
+	margin-left: 100px;
+	margin-right: 50px;
+	border:1px solid white;
+	border-radius: 10px;
+	padding: 5px 15px 5px 15px;
+}
+.link-log a
+{
+	color:white;
+}
+.err
+{
+	color:red;
+	margin: 5px 0px  15px 0px;
+}
+.askSign
+{
+	margin-top: 10px;
+}
+.nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.nav a
+{
+	color: white;
+}
+.header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 80px;
+	padding-top: 10px;
+	color: white;
+	background: #636e72;
+}
+.display
+{
+	color: white;
+	background: black;
+	width: 100%;
+}
+
+.conn
+{
+	margin-top: 15px;
+}
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background:#C0C1C1;
+	margin-left: 1000px;
+	margin-top: 20px;
+  width: 200px;
+	color: white;
+	height: 35px;
+  font: 1.2em "Trebuchet MS", sans-serif;
+	border-radius: 2px;
+	z-index: 9999;
+}
+.navigation a, .navigation span {
+  display: block;
+  padding: 4px 10px;
+  text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+.navigation a:hover, .navigation a:focus, .navigation a:active {
+  text-decoration: none;
+}
+.subMenu{
+	height: 125px;
+}
+.subMenu li{
+	padding: 3px;
+}
+.subMenu li:hover{
+	background-color: #636e72;
+}
+.navigation .subMenu {
+  background: #C0C1C1;
+  font-size: .9em;
+  margin: 0;
+  padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.navigation ul.subMenu a {
+  background: none;
+  padding: 3px 20px;
+}
+.contact{
+	position:relative;
+	height: 600px;
+	width: 250px;
+	background: #ccc;
+	margin-left: 250px;
+	border-radius: 10px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.display_msg{
+	margin-left: 40px;
+	position: relative;
+	width: 50%;
+	border-radius: 10px;
+	background: #ccc;
+	height: 600px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.content_msg{
+	padding-top: 100px;
+	display: flex;
+}
+.new_contact{
+	width: 100%;
+	font-size: 1em;
+	height: 90px;
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding: 20px;
+	border-bottom: 1px solid black;
+	border-radius: 4px;
+}
+.msg_left{
+	font-size: 2em;
+	background: blue;
+	width: 80%;
+	border-radius: 10px;
+	color: white;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.msg_right{
+	font-size: 2em;
+	background: red;
+	width: 80%;
+	margin-left: 20%;
+	border-radius: 10px;
+	color: white;
+	text-align: right;
+	word-wrap: break-word;
+}
+.send_msg{
+	position: fixed;
+	top:80%;
+	left: 31%;
+}
+.send_msg input[type=text]{
+	width: 800px;
+}
+#sendid{
+	visibility: hidden;
+}
+#submitMsg{
+	visibility: hidden;
+}
+#msg_instant{
+	visibility: hidden;
+}
